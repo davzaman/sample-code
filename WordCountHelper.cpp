@@ -7,7 +7,7 @@
 WordCountHelper::WordCountHelper() { }
 
 int WordCountHelper::getNumWords() const { // returns number of words in vocabulary
-   return vocabulary.size(); 
+    return vocabulary.size(); 
 }
 
 int WordCountHelper::incrWordCount(std::string word) { // if word not in vocabulary, add it then increment occurence count for that word and return the count
